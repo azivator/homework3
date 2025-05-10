@@ -5,23 +5,17 @@ public class Main {
                 //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
                 // to see how IntelliJ IDEA suggests fixing it.
 
-                byte LPStudents = 23;
-                byte ASStudents = 27;
-                byte EAStudents = 30;
-                short papers = 480;
-                System.out.println("У Людмилы Павловны " + LPStudents + " ученика");
-                System.out.println("У Анны Сергеевны " + ASStudents + " ученика");
-                System.out.println("У Екатерины Андреевны " + EAStudents + " ученика");
-                System.out.println("Всего куплено листов бумаги - " + papers + " шт.");
-                int paperPerStudent = papers / (LPStudents + ASStudents + EAStudents);
-                System.out.println("листов на ученика - " + paperPerStudent + " шт.");
-
-                //  float a = 27.12f;
-               // long b = 987678965549L;
-              //  float c = 2.786f;
-              //  short d = 569;
-              //  short e = -159;
-             //   int f = 27897;
-              //  byte g = 67;
+                byte bottlePer2min = 16;
+                System.out.println("За 2 минуты машина произвела " + bottlePer2min + " штук бутылок");
+                int bottlePerMin = bottlePer2min / 2;
+                System.out.println("За минуту машина произвела " + bottlePerMin + " штук бутылок");
+                int bottlePer20Min = bottlePerMin * 20;
+                System.out.println("За 20 минут машина произвела " + bottlePer20Min + " штук бутылок");
+                int bottlePerDay = (bottlePerMin * 60) * 24;
+                System.out.println("За сутки машина произвела " + bottlePerDay + " штук бутылок");
+                int bottlePer3Day = bottlePerDay * 3;
+                System.out.println("За 3 дня машина произвела " + bottlePer3Day + " штук бутылок");
+                int bottlePerMonth = bottlePerDay * 31;
+                System.out.println("За месяц (31 день) машина произвела " + bottlePerMonth + " штук бутылок");
         }
 }
