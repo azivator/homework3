@@ -7,14 +7,14 @@ public class Main {
                 int a = 200;
                 byte b = 1;
                 short c = -1000;
-                long d = 1546345356;
-                float e = 12;
+                long d = 154634535658L;
+                float e = 12.456f;
                 double f = 2.3456785431;
-                System.out.println("Значение переменной 'a' с типом byte равно " + a );
+                System.out.println("Значение переменной 'a' с типом int равно " + a );
                 System.out.println("Значение переменной 'b' с типом byte равно " + b );
-                System.out.println("Значение переменной 'c' с типом byte равно " + c );
-                System.out.println("Значение переменной 'd' с типом byte равно " + d );
-                System.out.println("Значение переменной 'e' с типом byte равно " + e );
-                System.out.println("Значение переменной 'f' с типом byte равно " + f );
+                System.out.println("Значение переменной 'c' с типом short равно " + c );
+                System.out.println("Значение переменной 'd' с типом long равно " + d );
+                System.out.println("Значение переменной 'e' с типом floaf равно " + e );
+                System.out.println("Значение переменной 'f' с типом double равно " + f );
         }
 }
